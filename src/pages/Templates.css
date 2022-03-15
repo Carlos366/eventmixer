@@ -1,0 +1,35 @@
+.categ {
+  margin-right: 0.8rem;
+  margin-bottom: 1rem;
+  display: inline;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.template-galery .col-md-4{
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .btn0{
+    width: 100%;
+  }
+}
+
+.btn0{
+  background-color: #EA5C4D !important;
+  box-shadow:  0 2px 8px #EA5C4D;
+  display: inline-block !important;
+  margin-left: auto !important;
+  border-color: transparent !important;
+  margin-bottom: 1.75rem;
+  padding: .375rem 4rem !important;
+}
+
+.title{
+  display: inline-block !important;
+}

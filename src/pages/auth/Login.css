@@ -1,0 +1,99 @@
+.embg{
+  height: 100vh;
+}
+
+.logo_w{
+  margin-top: 30%;
+}
+
+.em_desc{
+  margin-right: 15%;
+  margin-left: 15%;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.login{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.login a{
+  color: #EA5C4D !important;
+}
+
+.text-muted a{
+  display: inline-block;
+}
+
+.loginbtn{
+  background-color: #EA5C4D !important;
+  box-shadow:  0 2px 8px #EA5C4D;
+  border: none !important;
+}
+
+
+
+form p{
+  font-size: 80%;
+}
+
+.form-label{
+  color: #574B9A;
+}
+
+h2{
+  color: #574B9A !important;
+}
+
+.form-control, .btn {
+  border-radius: 0.5rem !important;
+}
+
+.btn svg, .btn h5{
+  display: inline-block !important;
+  color: white;
+}
+
+.fbbtn, .fbbtn h5{
+  background-color: darkblue !important;
+  color: white;
+  border-color: darkblue !important;
+  box-shadow:  0 1px 6px darkblue;
+}
+
+.glbtn, .glbtn h5{
+  background-color: white !important;
+  color: dimgrey;
+  border-color: darkgrey !important;
+}
+
+.glbtn{
+  box-shadow:  0 1px 6px darkgrey;
+}
+
+@media only screen and (max-width: 480px) {
+  .glbtn h5, .fbbtn h5 {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .lgbtn {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lgbtn {
+    background-color: white !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    color: #EA5C4D !important;
+    border: none !important;
+  }
+  .em{
+    height: 200vh;
+  }
+}
+

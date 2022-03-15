@@ -1,0 +1,206 @@
+.navbar-toggler-icon {
+  display: none !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  position: fixed;
+  z-index: 1000;
+}
+
+.collapsed .menu {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background: 50%/100% 100% no-repeat;
+}
+
+.collapsed .closemenu {
+  display: none;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background: 50%/100% 100% no-repeat;
+}
+
+.menu {
+  display: none;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background: 50%/100% 100% no-repeat;
+}
+
+.closemenu {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background: 50%/100% 100% no-repeat;
+}
+
+.usersm p{
+  font-size: 14px;
+}
+
+.usersm{
+  padding: 0 10px;
+}
+
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.nome{
+  color: #574B9A !important;
+}
+
+.navbar-collapse .nav{
+  background-color: white !important;
+}
+.usericonxl {
+  width: 4em;
+  height: 4em;
+  margin-right: auto!important;
+  margin-left: auto!important;
+}
+.usericonsm {
+  width: 2em;
+  height: 2em;
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar{
+    padding: 0.5rem 10rem !important;
+    box-shadow: 0 9px 30px #edecf3;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar{
+    padding: 0.5rem 7rem !important;
+
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar{
+    padding: 0.5rem 4rem !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .ml-md-auto {
+    margin-left: auto !important;
+  }
+  .user{
+    margin-left: 1.5rem !important;
+    padding: .3rem .5rem;
+  }
+  .navbar{
+    box-shadow: 0 9px 30px #edecf3;
+  }
+  .user{
+    display: block;
+    right: 0;
+  }
+  .navbar-collapse .nav {
+    flex-direction: row-reverse !important;
+  }
+  .navlinks {
+    display: flex;
+  }
+  
+  .nav-link.active{
+    font-weight: 600;
+  }
+  .nav-link{
+    color: #574B9A !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar{
+    padding: 0.5rem 1rem !important;
+  }
+  .navbar-collapse .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 105vh;
+    z-index: 999;
+    transition: all 0.3s;
+    box-shadow: 9px 0 30px #edecf3;
+    padding-top: 18%;
+  }
+  .user{
+    margin-right: auto!important;
+    margin-left: auto!important;
+  }
+  
+  .nav-link.active{
+    background-color: #FCE7E5;
+  }
+  .nav-link{
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+  }
+  .navbar-collapse .nav {
+    padding-top: 25%;
+  }
+  .logo {
+    display: none !important;
+  }
+  .userxl{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navicon{
+    display: none !important;
+  }
+  .usersm{
+    display: none !important;
+  }
+}
+
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+ .usersm .logout{
+   position: absolute;
+   bottom: 7%;
+   margin-left: 1rem!important;
+ }
+
+.userxl .logout{
+  border-radius: .25rem;
+  padding: 0.5rem;
+  box-shadow:  0 1px 5px #d4d4d4;
+}
+
+.popover-body{
+  padding: 1.5rem !important;
+}
+ 
+.logout svg,  .logout h5{
+  display: inline-block;
+  color: #574B9A;
+}
+
+.nav-link .row{
+  color: dimgrey;
+}
+.nav-link svg{
+  color: darkgrey;
+}
+.nav-link.active svg{
+  color: #EA5C4D;
+}

@@ -1,0 +1,43 @@
+.about h1, .about p{
+  color: white;
+}
+.about p{
+  font-weight: 300;
+}
+
+.nome{
+  padding: 0.5rem;
+}
+
+.teamimg{
+  width: 6rem;
+  height: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about{
+    margin: -2.5rem -10rem !important;
+    padding: 4rem 15rem !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about{
+    margin: -2.5rem -7rem !important;
+    padding: 4rem 7rem !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about{
+    margin: -2rem -4rem !important;
+    padding: 4rem 4rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about{
+    margin: -2rem -1rem !important;
+    padding: 4rem 1rem !important;
+  }
+}

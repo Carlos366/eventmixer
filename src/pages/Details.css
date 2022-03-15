@@ -1,0 +1,200 @@
+.date-range input{
+  background-color: white !important;
+  display: inline-block !important;
+  margin-right: 1rem;
+  color: #696969;
+}
+
+.date-range {
+  display: flex;
+  margin-right: -1rem;
+}
+
+.date-range .-focused {
+  border: none !important;
+  outline: 0!important;
+  box-shadow: 0 0 0 0.2rem rgba(234, 92, 77, 0.3), 0 1px rgba(255, 255, 255, 0.1)!important;
+}
+
+.form-label {
+  color: #EA5C4D;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.custom-control-label{
+  color: #696969;
+}
+
+.nice-dates-day:before {
+  background-color: #EA5C4D !important;
+}
+
+.nice-dates-popover {
+  max-width: 300px !important;
+  padding: 1.5rem !important;
+}
+
+.outro{
+  display: inline-block !important;
+  width: auto !important;
+  border: none !important;
+  border-bottom: 1px solid #ced4da !important;
+  height: auto!important;
+  padding: 0 5px !important;
+  margin-left: 1rem !important;
+  border-radius: 0 !important;
+}
+
+.form-control:focus {
+  border: none !important; 
+  outline: 0!important;
+  box-shadow: 0 0 0 0.2rem rgba(234, 92, 77, 0.3), 0 1px rgba(255, 255, 255, 0.1)!important;
+}
+
+.outro:focus {
+  border-bottom: 1px solid #ced4da !important;
+  box-shadow: none !important;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #EA5C4D!important;
+  border-color: #EA5C4D!important;
+  box-shadow: 0 0 0 0.2rem rgba(234, 92, 77, 0.3), 0 1px rgba(255, 255, 255, 0.1)!important;
+}
+
+.custom-radio {
+  margin-bottom: 0.25rem;
+  margin-left: 1rem;
+  display: block !important;
+}
+
+
+.switch-field {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.switch-field input {
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  
+  border: 0;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.switch-field label {
+  background-color: white;
+  color: #696969;
+  text-align: center;
+  margin-right: -1px;
+  border: 1px solid #ced4da;
+  box-shadow: inset 0 1px 3px rgba(148, 148, 148, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.1s ease-in-out;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.switch-field label:hover {
+  cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  background-color: #EA5C4D;
+  box-shadow: none;
+  color: white;
+}
+
+.switch-field label:first-of-type {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.switch-field label:last-of-type {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.switch-info{
+  font-size: 12px;
+  color: darkgrey;
+}
+
+.btns .col-3, .btns .col-9{
+  padding: 0;
+}
+
+.cbtn{
+  border-radius: 2rem;
+  margin-right: 1rem;
+  padding: .75rem .75rem;
+}
+
+.tbtn{
+  border-radius: 0.5rem;
+  padding: .75rem 1rem;
+  width: 100%;
+}
+
+.cbtn, .tbtn{
+  background-color: #574B9A !important;
+  color: white;
+  border-color: #574B9A !important;
+  box-shadow:  0 1px 6px #574B9A;
+  display: inline-block;
+}
+
+.cbtn svg, .cbtn h5, .tbtn svg, .tbtn h5{
+  display: inline-block !important;
+  color: white;
+}
+
+.closebtn{
+  color: #574B9A !important;
+}
+
+.modal-body {
+  padding: 1.5rem 2rem !important;
+}
+
+.add, .send{
+  border: none !important;
+  padding: 0 !important;
+  height: auto !important;
+}
+
+.send svg{
+  color: #574B9A;
+}
+
+.add:focus {
+  box-shadow: none !important;
+}
+
+.send:hover {
+  background-color: #edecf3 !important;
+}
+
+.name{
+  font-size: 15px !important;
+}
+
+.role {
+  display: inline-block !important;
+  width: auto !important;
+  padding: 0 !important;;
+  color: #574B9A !important;
+  font-weight: 500!important;
+  border: none !important;
+  font-size: 14px !important;
+}
+
+.role:focus {
+  box-shadow: none !important;
+}
